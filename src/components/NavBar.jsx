@@ -27,9 +27,6 @@ export const NavBar = () => {
           aria-label="Home Button"
           colorScheme="white"
           color={selected === 'home' ? 'white' : 'gray'}
-          boxShadow={
-            selected === 'home' ? '0px 0px 5px white' : '0px 0px 0px white'
-          }
           borderRadius={'50px'}
           _hover={{
             color: 'white',
@@ -45,9 +42,6 @@ export const NavBar = () => {
           aria-label="Playlist Button"
           colorScheme="white"
           color={selected === 'playlist' ? 'white' : 'gray'}
-          boxShadow={
-            selected === 'playlist' ? '0px 0px 5px white' : '0px 0px 0px white'
-          }
           borderRadius={'50px'}
           _hover={{
             color: 'white',
@@ -59,9 +53,6 @@ export const NavBar = () => {
           aria-label="Favorite Button"
           colorScheme="white"
           color={selected === 'favorite' ? 'white' : 'gray'}
-          boxShadow={
-            selected === 'favorite' ? '0px 0px 5px white' : '0px 0px 0px white'
-          }
           borderRadius={'50px'}
           _hover={{
             color: 'white',
@@ -73,9 +64,6 @@ export const NavBar = () => {
           aria-label="Settings Button"
           colorScheme="white"
           color={selected === 'config' ? 'white' : 'gray'}
-          boxShadow={
-            selected === 'config' ? '0px 0px 5px white' : '0px 0px 0px white'
-          }
           borderRadius={'50px'}
           _hover={{
             color: 'white',
