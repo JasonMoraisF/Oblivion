@@ -32,10 +32,6 @@ export const NavBar = () => {
             color: 'white',
           }}
           onClick={() => handleIconClick('home')}
-          _active={{
-            boxShadow: '0px 0px 5px white',
-            borderColor: 'white',
-          }}
         />
         <IconButton
           icon={<RiPlayList2Fill />}
